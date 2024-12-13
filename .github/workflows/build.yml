@@ -89,10 +89,10 @@ jobs:
           args: coverage
           
 
-      - name: Upload to codecov.io
-        uses: codecov/codecov-action@v3
-        with:
-          files: coverage/*.lcov
+      #- name: Upload to codecov.io
+      #  uses: codecov/codecov-action@v3
+      #  with:
+      #    files: coverage/*.lcov
 
   lints:
     name: Lints
